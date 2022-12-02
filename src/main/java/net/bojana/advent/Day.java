@@ -11,7 +11,7 @@ import java.util.Objects;
 
 abstract public class Day {
     public List<String> getInput(int day, boolean isTest) throws IOException {
-        String fileName = Objects.requireNonNull(Day1.class.getClassLoader().getResource(isTest ? "day" + day + "_test.txt" : "day" + day + ".txt")).getFile();
+        String fileName = Objects.requireNonNull(Day.class.getClassLoader().getResource(isTest ? "day" + day + "_test.txt" : "day" + day + ".txt")).getFile();
         return Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
     }
 

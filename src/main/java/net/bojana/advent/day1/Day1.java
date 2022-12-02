@@ -16,7 +16,7 @@ public class Day1 extends Day {
 
         List<String> input = run.getInput(1, false);
 
-       run. part1(input);
+       run.part1(input);
        run.part2(input);
     }
 
