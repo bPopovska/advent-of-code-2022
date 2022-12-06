@@ -1,12 +1,12 @@
 package net.bojana.advent.day5;
 
-import net.bojana.advent.Day;
+import net.bojana.advent.MultiLineInput;
 
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Day5 extends Day {
+public class Day5 extends MultiLineInput {
     Map<Integer, Stack<Character>> stacks = new HashMap<>();
     List<Integer> stackIds = new LinkedList<>();
 

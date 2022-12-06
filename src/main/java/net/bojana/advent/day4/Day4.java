@@ -1,12 +1,12 @@
 package net.bojana.advent.day4;
 
-import net.bojana.advent.Day;
+import net.bojana.advent.MultiLineInput;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Day4 extends Day {
+public class Day4 extends MultiLineInput {
 
     public static void main(String[] args) throws IOException {
         Day4 run = new Day4();

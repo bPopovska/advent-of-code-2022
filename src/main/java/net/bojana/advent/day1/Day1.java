@@ -1,12 +1,12 @@
 package net.bojana.advent.day1;
 
-import net.bojana.advent.Day;
+import net.bojana.advent.MultiLineInput;
 
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Day1 extends Day {
+public class Day1 extends MultiLineInput {
 
     private static final String FILE_NAME = "day1.txt";
 
