@@ -86,8 +86,8 @@ public class Day10 extends MultiLineInput {
             if (pixelDrawn == x - 1 || pixelDrawn == x || pixelDrawn == x + 1) {
                 System.out.print("##");
             } else {
+                System.out.print("..");
             }
-
 
             if (inX) {
                 inX = false;
